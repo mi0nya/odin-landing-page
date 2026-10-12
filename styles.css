@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+}
+
+footer {
+    color: #E5E7EB;
+}
+
+header .container {
+    margin: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 1000px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 150px 60px;
+    gap: 32px;
+}
+
+.hero .container {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+
+.left-side {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right-side {
+    flex: 1;
+    margin: auto;
+    color: #F9FAF8;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fake-img {
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: #616974;
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero p, header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.action .container {
+    margin: 80px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex: 0 1 1000px;
+}
+
+.cta {
+    flex: auto;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.action .left-side {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.action .left-side p, .action .left-side h3 {
+    margin: 0;
+}
+
+.action .left-side .p {
+    font-style: normal;
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 20px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 12px 48px;
+    border-radius: 10px;
+    text-wrap: nowrap;
+}
+
+.action button {
+    border: solid #F9FAF8 2px;
+}
+
+button:hover {
+    background-color: #2c6dd6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 52px;
+}
+
+.info h2{
+font-size: 36px;
+color: #1F2937;
+font-weight: 900;
+text-align: center;
+}
+
+.info .container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.card {
+    flex: none;
+    width: 160px;
+    text-align: center;
+}
+
+.card-img {
+    box-sizing: border-box;
+    flex: none;
+    aspect-ratio: 1/1;
+    height: 160px;
+    border: solid #3882F6 3px;
+    border-radius: 12px;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container {
+    box-sizing: border-box;
+    padding: 60px;
+    width: 820px;
+    padding-top: 120px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quote p {
+    flex: 0 1 auto;
+    width: fit-content;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    box-sizing: border-box;
+    height: 120px;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
